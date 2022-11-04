@@ -6,7 +6,7 @@ test('Функция должна вернуть булиновое значен
 	expect(type).toBe('boolean');
 });
 
-test('Тест. x1: 6, y1: 4, x2: 7, y2: 5', () => {
+test('Тест. x1: 7, y1: 2, x2: 7, y2: 5', () => {
 	const res = rook(7, 2, 7, 5);
 
 	expect(res).toBe(true);
